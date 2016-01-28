@@ -12,6 +12,7 @@ import React, {
 } from 'react-native';
 
 import Header from './Header';
+import HomePage from './home/HomePage';
 import TabNavigator from 'react-native-tab-navigator';
 
 const HOME = 'home';
@@ -49,7 +50,7 @@ export default class MainScreen extends Component {
         );
     }
 
-    _createChildView(tag) {
+    static _createChildView(tag) {
         return (
             <View style={{flex:1,backgroundColor:'#00baff',alignItems:'center',justifyContent:'center'}}>
                 <Text style={{fontSize:22}}>{tag}</Text>
@@ -62,11 +63,11 @@ export default class MainScreen extends Component {
             <View style={{flex: 1}}>
                 <Header />
                 <TabNavigator hidesTabTouch={true} tabBarStyle={styles.tab}>
-                    {this._renderTabItem(HOME_NORMAL, HOME_FOCUS, HOME, this._createChildView(HOME))}
-                    {this._renderTabItem(CATEGORY_NORMAL, CATEGORY_FOCUS, CATEGORY, this._createChildView(CATEGORY))}
-                    {this._renderTabItem(FAXIAN_NORMAL, FAXIAN_FOCUS, FAXIAN, this._createChildView(FAXIAN))}
-                    {this._renderTabItem(CART_NORMAL, CART_FOCUS, CART, this._createChildView(CART))}
-                    {this._renderTabItem(PERSONAL_NORMAL, PERSONAL_FOCUS, PERSONAL, this._createChildView(PERSONAL))}
+                    {this._renderTabItem(HOME_NORMAL, HOME_FOCUS, HOME, <HomePage/>)}
+                    {this._renderTabItem(CATEGORY_NORMAL, CATEGORY_FOCUS, CATEGORY, MainScreen._createChildView(CATEGORY))}
+                    {this._renderTabItem(FAXIAN_NORMAL, FAXIAN_FOCUS, FAXIAN, MainScreen._createChildView(FAXIAN))}
+                    {this._renderTabItem(CART_NORMAL, CART_FOCUS, CART, MainScreen._createChildView(CART))}
+                    {this._renderTabItem(PERSONAL_NORMAL, PERSONAL_FOCUS, PERSONAL, MainScreen._createChildView(PERSONAL))}
                 </TabNavigator>
             </View >
         );
@@ -84,6 +85,5 @@ const styles = StyleSheet.create({
         height: 35,
         resizeMode: 'stretch',
         marginTop: 12.5
-    },
-
+    }
 });

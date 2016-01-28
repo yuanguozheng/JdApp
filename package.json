@@ -8,6 +8,7 @@
   "dependencies": {
     "i": "^0.3.4",
     "react-native": "^0.18.0",
-    "react-native-tab-navigator": "^0.2.15"
+    "react-native-tab-navigator": "^0.2.15",
+    "react-native-viewpager": "^0.2.1"
   }
 }

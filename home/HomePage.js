@@ -11,7 +11,6 @@ import React, {
     ScrollView,
     RefreshControl
 } from 'react-native';
-import MenuButton from './MenuButton';
 import ViewPager from 'react-native-viewpager';
 
 const BANNER_IMGS = [

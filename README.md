@@ -21,7 +21,7 @@ Commit: [Add ViewPager](https://github.com/yuanguozheng/JdApp/commit/2d1741bef1c
 ### 教程四: 
 [React Native布局实践：开发京东客户端首页（四）——首页功能按钮及控件封装](http://blog.csdn.net/yuanguozhengjust/article/details/50601111)
 
-Commit: [Add ViewPager](https://github.com/yuanguozheng/JdApp/commit/2d1741bef1c7908c9e0d2f52c23210e8de2fcc7a) 
+Commit: [Update Home Buttons](https://github.com/yuanguozheng/JdApp/commit/bc7d59c1c4b624b60bf5f88bd50c5c1bf7fafad6) 
 
 ### 其他教程
 [React Native入门——环境配置及Hello World](http://blog.csdn.net/yuanguozhengjust/article/details/50468050)

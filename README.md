@@ -16,6 +16,11 @@ Commit: [Add Tab](https://github.com/yuanguozheng/JdApp/commit/b661cd8767749bcf8
 ### 教程三: 
 [React Native布局实践：开发京东客户端首页（三）轮播图的实现](http://blog.csdn.net/yuanguozhengjust/article/details/50556700)
 
+Commit: [Add ViewPager](https://github.com/yuanguozheng/JdApp/commit/2d1741bef1c7908c9e0d2f52c23210e8de2fcc7a)
+ 
+### 教程四: 
+[React Native布局实践：开发京东客户端首页（四）——首页功能按钮及控件封装](http://blog.csdn.net/yuanguozhengjust/article/details/50601111)
+
 Commit: [Add ViewPager](https://github.com/yuanguozheng/JdApp/commit/2d1741bef1c7908c9e0d2f52c23210e8de2fcc7a) 
 
 ### 其他教程

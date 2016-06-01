@@ -52,7 +52,7 @@ export default class HomePage extends Component {
         fetch('http://m.jd.com/index/recommend.action?_format_=json&page=1')
             .then((res)=> res.json())
             .then((str)=> {
-                let arr = JSON.parse(str.recommend).recommendList;
+                let arr = JSON.parse(str.recommend).wareInfoList;
                 var rows = [];
                 for (let i = 0; i < arr.length; i += 2) {
                     var item = {id: i, left: null, right: null};
